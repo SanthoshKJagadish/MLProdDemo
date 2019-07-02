@@ -34,5 +34,5 @@ print(accuracy_score(y_test, y_pred))
 with open("/Users/santhoshkumarjagadish/Documents/Github/MLProdDemo/data/Configuration/iris_trained_model.pkl", 'wb') as f:
     pickle.dump(clf, f)
 
-with open("/Users/santhoshkumarjagadish/Documents/Github/MLProdDemo/data/Configuration/iris_trained_model.pkl", 'rb') as f:
-    clf_loaded = pickle.load(f)
+#with open("/Users/santhoshkumarjagadish/Documents/Github/MLProdDemo/data/Configuration/iris_trained_model.pkl", 'rb') as f:
+    #clf_loaded = pickle.load(f)
